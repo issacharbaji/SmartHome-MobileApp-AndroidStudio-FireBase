@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rooms"
+    android:paddingTop="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="30dp"
+    android:background="@drawable/rooms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rooms"
+            android:textColor="#F8010302"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/morning_button"
+            android:text="Home"
+            android:drawableTop="@drawable/ic_home_black_24dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            />
+
+        <Space android:layout_height="20dp"
+            android:layout_width="match_parent"></Space>
+
+        <Switch
+            android:id="@+id/mainBreaker"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Main Breaker"
+            android:paddingLeft="20dp"
+            android:background="@drawable/mainbreaker"
+            android:paddingRight="20dp"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <Switch
+            android:id="@+id/hotwater"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/switches"
+            android:paddingLeft="20dp"
+            android:text="Hot Water"
+            android:paddingRight="20dp"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+
+
+
+        <Button
+            android:id="@+id/kitchen"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/rooms_button"
+            android:paddingRight="200dp"
+
+            android:text="Kitchen"
+            android:textColor="#131111"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Space android:layout_height="20dp"
+            android:layout_width="match_parent"></Space>
+
+        <Button
+            android:id="@+id/salon"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/rooms_button"
+
+            android:paddingRight="230dp"
+            android:text="Salon"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            />
+
+        <Space android:layout_height="20dp"
+            android:layout_width="match_parent"></Space>
+
+        <Button
+            android:id="@+id/masterBedRoom"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/rooms_button"
+            android:paddingRight="100dp"
+            android:text="Master Bedroom"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Space android:layout_height="20dp"
+            android:layout_width="match_parent"></Space>
+
+        <Button
+            android:id="@+id/kidsBedRoom"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/rooms_button"
+            android:paddingRight="150dp"
+            android:text="Kids Bedroom"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Space android:layout_height="20dp"
+            android:layout_width="match_parent"></Space>
+
+
+
+        <Space android:layout_height="20dp"
+            android:layout_width="match_parent"></Space>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

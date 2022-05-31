@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/members"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Members" />
+
+    <item
+        android:id="@+id/addmembers"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Add Members" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="History" />
+
+</menu>

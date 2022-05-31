@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ac">
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="199dp"
+        android:layout_height="38dp"
+        android:text="Air Conditions"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <Button
+    android:id="@+id/buttonDown"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@drawable/acbuttons"
+    android:drawableTop="@drawable/ic_arrow_downward_black_24dp"
+    app:layout_constraintBottom_toBottomOf="@+id/salonAc"
+    app:layout_constraintEnd_toEndOf="@+id/salonAc"
+    app:layout_constraintHorizontal_bias="0.426"
+    app:layout_constraintStart_toStartOf="@+id/salonAc"
+    app:layout_constraintTop_toTopOf="@+id/salonAc"
+    app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/salonAc"
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:background="@drawable/switches"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Salon Ac"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Switch
+        android:id="@+id/onoff"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:background="@drawable/switches"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ON/OFF"
+        app:layout_constraintBottom_toBottomOf="@+id/salonAc"
+        app:layout_constraintEnd_toEndOf="@+id/salonAc"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/salonAc"
+        app:layout_constraintTop_toTopOf="@+id/salonAc"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <Switch
+        android:id="@+id/acMainBreaker"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/mainbreaker"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="Main Breaker"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/buttonUp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/acbuttons"
+        android:drawableTop="@drawable/ic_arrow_upward_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/salonAc"
+        app:layout_constraintEnd_toEndOf="@+id/salonAc"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="@+id/salonAc"
+        app:layout_constraintTop_toTopOf="@+id/salonAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:background="@drawable/temperature"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="18"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/salonAc"
+        app:layout_constraintEnd_toEndOf="@+id/salonAc"
+        app:layout_constraintHorizontal_bias="0.748"
+        app:layout_constraintStart_toStartOf="@+id/salonAc"
+        app:layout_constraintTop_toTopOf="@+id/salonAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonDown1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/acbuttons"
+        android:drawableTop="@drawable/ic_arrow_downward_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/masterBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/masterBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="@+id/masterBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/masterBedRoomAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/masterBedRoomAc"
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:background="@drawable/switches"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Master Bedroom Ac"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <Switch
+        android:id="@+id/onoff1"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:background="@drawable/switches"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ON/OFF"
+        app:layout_constraintBottom_toBottomOf="@+id/masterBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/masterBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/masterBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/masterBedRoomAc"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <Button
+        android:id="@+id/buttonUp1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/acbuttons"
+        android:drawableTop="@drawable/ic_arrow_upward_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/masterBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/masterBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="@+id/masterBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/masterBedRoomAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/temperature1"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:background="@drawable/temperature"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="18"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/masterBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/masterBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.748"
+        app:layout_constraintStart_toStartOf="@+id/masterBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/masterBedRoomAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonDown2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/acbuttons"
+        android:drawableTop="@drawable/ic_arrow_downward_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/kidsBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/kidsBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="@+id/kidsBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/kidsBedRoomAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/kidsBedRoomAc"
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:background="@drawable/switches"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Kids Bedroom Ac"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
+
+    <Switch
+        android:id="@+id/onoff2"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:background="@drawable/switches"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ON/OFF"
+        app:layout_constraintBottom_toBottomOf="@+id/kidsBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/kidsBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/kidsBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/kidsBedRoomAc"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <Button
+        android:id="@+id/buttonUp2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/acbuttons"
+        android:drawableTop="@drawable/ic_arrow_upward_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/kidsBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/kidsBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="@+id/kidsBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/kidsBedRoomAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/temperature2"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:background="@drawable/temperature"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="18"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/kidsBedRoomAc"
+        app:layout_constraintEnd_toEndOf="@+id/kidsBedRoomAc"
+        app:layout_constraintHorizontal_bias="0.748"
+        app:layout_constraintStart_toStartOf="@+id/kidsBedRoomAc"
+        app:layout_constraintTop_toTopOf="@+id/kidsBedRoomAc"
+        app:layout_constraintVertical_bias="0.819" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

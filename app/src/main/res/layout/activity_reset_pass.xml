@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/coordinatorLayout"
+    android:layout_height="match_parent"
+    tools:context=".resetPass">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/conPass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="New Password Confirmation"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmationCode"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/n"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="New Password"
+
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmationCode"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirmationCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        app:errorEnabled="true"
+        tools:ignore="MissingConstraints">
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/o"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Old Password"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmationCode"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Reset Password"
+        android:background="@drawable/rooms_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

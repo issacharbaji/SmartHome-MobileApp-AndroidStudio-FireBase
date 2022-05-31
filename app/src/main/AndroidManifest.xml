@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smarthome">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".microwave"></activity>
+        <activity android:name=".forgetPasswordNext" />
+        <activity android:name=".forgetUserName" />
+        <activity android:name=".forgetPassword" />
+        <activity android:name=".resetPass2" />
+        <activity android:name=".forgetPass" />
+        <activity android:name=".resetPass" />
+        <activity android:name=".resetPin" />
+        <activity android:name=".myinfo" />
+        <activity android:name=".reportHistory" />
+        <activity android:name=".history" />
+        <activity android:name=".homeAppliances" />
+        <activity android:name=".electricity" />
+        <activity android:name=".goAuto" />
+        <activity android:name=".goOut" />
+        <activity android:name=".settings" />
+        <activity android:name=".report" />
+        <activity android:name=".kitchen" />
+        <activity android:name=".ac" />
+        <activity android:name=".salon" />
+        <activity android:name=".members" />
+        <activity android:name=".addSubAccounts" />
+        <activity android:name=".kidsBedRoom" />
+        <activity android:name=".Server" />
+        <activity android:name=".registration" />
+        <activity android:name=".masterBedRoom" />
+        <activity android:name=".rooms" />
+        <activity android:name=".test" />
+        <activity android:name=".main" />
+        <activity android:name=".logIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">smartHome</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_main3">main3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="input_error_name">Name is Empty</string>
+</resources>

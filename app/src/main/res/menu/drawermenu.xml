@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item  android:id="@+id/myInfo" android:icon="@drawable/ic_home_black_24dp" android:title="My Info" />
+    <item  android:id="@+id/rooms" android:icon="@drawable/ic_inbox_black_24dp" android:title="Rooms" />
+    <item  android:id="@+id/ac" android:title="Air Conditions" android:icon="@drawable/ic_ac_unit_black_24dp"/>
+    <item  android:id="@+id/members" android:title="Members" android:icon="@drawable/ic_person_black_24dp"/>
+    <item  android:id="@+id/report" android:title="Report a Problem" android:icon="@drawable/ic_report_problem_black_24dp"/>
+    <item  android:id="@+id/setting" android:title="Settings" android:icon="@drawable/ic_settings_black_24dp"/>
+    <item  android:id="@+id/electricity" android:title="Electricity" android:icon="@drawable/ic_lightbulb_outline_black_24dp"/>
+    <item  android:id="@+id/homeAppliances" android:title="Home Appliances" android:icon="@drawable/ic_store_mall_directory_black_24dp"/>
+    <item android:id="@+id/contactus" android:title="Contact Us" android:icon="@drawable/ic_phone_in_talk_black_24dp"/>
+    <item android:id="@+id/notidifactions" android:title="Notifications" android:icon="@drawable/ic_notifications_black_24dp"/>
+    <item  android:id="@+id/logout" android:title="Log Out" android:icon="@drawable/ic_close_black_24dp"/>
+
+
+
+</menu>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".main"
+    android:background="@drawable/main5">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="117dp"
+            android:layout_height="67dp"
+            android:textColor="#100F0F"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.254" />
+
+        <Button
+            android:id="@+id/goodM"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/morning_button"
+            android:drawableTop="@drawable/ic_wb_sunny_black_24dp"
+            android:paddingTop="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.087"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <Button
+            android:id="@+id/goodN"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/night_button"
+            android:drawableTop="@drawable/ic_brightness_3_black_24dp"
+            android:paddingTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <Button
+            android:id="@+id/out"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/goout_button"
+            android:drawableTop="@drawable/ic_airport_shuttle_black_24dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.628"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <Button
+            android:id="@+id/goauto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/goauto_button"
+            android:drawableTop="@drawable/ic_brightness_auto_black_24dp"
+            android:paddingTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.897"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <TextView
+            android:id="@+id/goodMorning"
+            android:layout_width="98dp"
+            android:layout_height="22dp"
+            android:text="Good Morning"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.057"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/goodM"
+            app:layout_constraintVertical_bias="0.013" />
+
+        <TextView
+            android:id="@+id/goodNight"
+            android:layout_width="80dp"
+            android:layout_height="22dp"
+            android:text=" Good Night"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/goodN"
+            app:layout_constraintVertical_bias="0.015" />
+
+        <Button
+            android:id="@+id/securitySensors"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/camera_button"
+            android:text="Security Sensors"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65" />
+
+        <Button
+            android:id="@+id/cameras"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/camera_button"
+            android:text="Cameras"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65" />
+
+        <Button
+            android:id="@+id/parking"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/camera_button"
+            android:text="Parking Door"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.88" />
+
+        <Button
+            android:id="@+id/mainGate"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/camera_button"
+            android:text="Main Gate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.88" />
+
+        <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="264dp"
+            android:layout_height="165dp"
+            android:paddingLeft="50dp"
+            android:textColor="#070A0C"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.028" />
+
+        <TextView
+            android:id="@+id/goOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Out"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.622"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/out"
+            app:layout_constraintVertical_bias="0.013" />
+
+        <TextView
+            android:id="@+id/goautot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Auto"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toEndOf="@+id/goOut"
+            app:layout_constraintTop_toBottomOf="@+id/goauto"
+            app:layout_constraintVertical_bias="0.013" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+
+    android:id="@+id/navigavion_view"
+
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/gettyimages"
+    app:itemTextColor="@color/white"
+    app:itemIconTint="@color/white"
+    app:menu="@menu/drawermenu"
+    android:layout_gravity="start"
+    tools:ignore="MissingConstraints" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
